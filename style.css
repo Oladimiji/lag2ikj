@@ -2215,3 +2215,16 @@ footer .copyright{
     }
 }
 
+@media (max-width: 310px){
+    .p-box p {
+        font-size: 22px;
+    }
+    .service-box {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 320px;
+        margin-left: -90px;
+    }
+}
+
